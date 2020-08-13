@@ -104,6 +104,8 @@ const CreateAppointment: React.FC = () => {
       if (date) {
         setSelectedDate(date);
       }
+
+      setSelectedHour(0);
     },
     [],
   );
